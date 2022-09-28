@@ -1,0 +1,34 @@
+package programacao;
+
+import java.util.Scanner;
+
+public class programacao5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num1,num2;
+		
+		Scanner ler= new Scanner(System.in);
+		
+		System.out.printf("Informe dois numeros:");
+		num1 = ler.nextInt();
+		num2 = ler.nextInt();	
+		if (num1>0 && num2 > 0 )
+		{
+			System.out.printf("Os numeros são maiores que 0" );
+		}
+		else 
+		{
+			 if  (num1<0 && num2<0)
+			 {
+				 System.out.printf("Os numeros são menores que 0" );
+			 }
+			else
+			{
+				if (num1 ==0 || num2 ==0) 
+				{
+					System.out.printf("os numeros são iguais a 0");
+				}
+			}	
+		}
+		
